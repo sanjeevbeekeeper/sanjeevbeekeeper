@@ -1,0 +1,59 @@
+// Sanjeev Beekeeper
+// mar 2017
+
+.container {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    height:100vh;
+    .overall_container {
+        padding-top: 20px;
+        color: slategray;
+        .title_container {
+            font-family: 'Source Sans Pro', sans-serif;
+            & h2 {
+                font-weight: normal; // require for chrome
+                margin: 0;
+                font-size: 48px;
+                & span {
+                    color: steelblue;
+                    }
+                } // h2
+            p {
+                width: 100%;
+                margin: 0;
+                font-size: 16px;
+                }
+            img {
+                padding: 6px;
+                border-radius: 3px;
+                width: 45px;
+                margin-bottom: 10px;
+                }
+            }
+        .link_container {
+            margin-top: 20px;
+            a {
+                color: dodgerblue;
+                text-decoration: none !important;
+                font-size: 19px;
+                display: block;
+                padding: 4px;
+                }
+            }
+        .copyright {
+            width: 100%;
+            margin-top: 20px;
+            font-size: 15px;
+            color: silver;
+            }
+        } // .overall_container
+    }
+
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+        }
+    }
