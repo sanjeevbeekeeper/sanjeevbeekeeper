@@ -1,0 +1,98 @@
+!!! 5
+%html(lang="en")
+    / Head
+    %head
+        %meta(charset="UTF-8")
+        %meta(name="viewport" content="width=device-width, initial-scale=1")
+        %meta(http-equiv="X-UA-Compatible" content="ie-edge")
+        %title Home for Sanjeev Beekeeper
+        %meta(name="description" content="Sanjeev Beekeeper Portfolio, Photos, Videos, and Social Media")
+        %meta(name="author" content="Sanjeev Beekeeper")
+        %meta(name="theme-color" content="#fff")
+        / Favicon
+        %link(rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png")
+        %link(rel="icon" type="image/png" href="resources/favicons/favicon-32x32.png" sizes="32x32")
+        %link(rel="icon" type="image/png" href="resources/favicons/favicon-16x16.png" sizes="16x16")
+        %link(rel="manifest" href="resources/favicons/manifest.json")
+        %link(rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5")
+        / font
+        %link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato")
+        / Stylesheets
+        %link(rel="stylesheet" href="lib/vendor/bootstrap.min.css")
+        %link(rel="stylesheet" href="lib/styles/css/main.css")
+    %body
+        .container-fluid
+            .row
+                .col-lg-6.col-lg-offset-3.col-md-6.col-md-offset-3.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
+                    .overall_container
+                        / Intro
+                        .title_container
+                            %img(src="resources/logo.png" alt="logo")
+                            %h2
+                                Sanjeev
+                                %span Beekeeper
+                            %p
+                                Hi! I am Sanjeev Beekeeper - Creature Artist, Interface Designer, Animator and Front-end Developer lives in Chennai.
+                                I use Pencil, Photoshop, Illustrator, After Effects, Sketch 3, Bootstrap, Atom, Git, Grunt, BEM, and WordPress. Lover of Sketch 3, Haml, Sass and Susy.
+                        / links
+                        .link--container
+                            / Personal Blog
+                            %a(href="http://www.beekeepersblog.com/" target="_blank")
+                                .page--container.text-center
+                                    .page--container__img
+                                        %img(src="resources/brand/blog.png")
+                                    .page--container__text
+                                        != "Personal <br /> Blog"
+                            / Portfolio
+                            %a(href="https://www.behance.net/beekeeper" target="_blank")
+                                .page--container.text-center
+                                    .page--container__img
+                                        %img(src="resources/brand/behance.png")
+                                    .page--container__text
+                                        != "Online <br /> Portfolio"
+                            / Inspirational Quotes
+                            %a(href="http://sanjeevbeekeeper.com/beekeeperquotes/" target="_blank")
+                                .page--container.text-center
+                                    .page--container__img
+                                        %img(src="resources/brand/Quotes.png")
+                                    .page--container__text
+                                        != "Inspirational <br /> Quotes"
+                            / Quotes on iBook
+                            %a(href="https://itunes.apple.com/us/book/inspirational-quotes/id826458812?mt=11&ign-mpt=uo%3D4" target="_blank")
+                                .page--container.text-center
+                                    .page--container__img
+                                        %img(src="resources/brand/ibook.png")
+                                    .page--container__text
+                                        != "Quotes on <br /> iBook"
+
+                        .separator
+
+                        .link--container__socialmedia
+                            / Personal Blog
+                            .page--container.text-center
+                                .page--container__img
+                                    %a(href="https://twitter.com/sanjbeekeeper" target="_blank")
+                                        %img(src="resources/brand/social-Twitter.png" alt="twitter")
+                            / Portfolio
+                            .page--container.text-center
+                                .page--container__img
+                                    %a(href="https://www.instagram.com/sanjeevbeekeeper/" target="_blank")
+                                        %img(src="resources/brand/social-instagram.png" alt="instagram")
+                            / Inspirational Quotes
+                            .page--container.text-center
+                                .page--container__img
+                                    %a(href="https://www.pinterest.com/sanjbeekeeper/" target="_blank")
+                                        %img(src="resources/brand/social-pinterest.png")
+                            / Quotes on iBook
+                            .page--container.text-center
+                                .page--container__img
+                                    %a(href="https://vimeo.com/17893132" target="_blank")
+                                        %img(src="resources/brand/social-vimeo.png")
+                            / Quotes on iBook
+                            .page--container.text-center
+                                .page--container__img
+                                    %a(href="https://www.flickr.com/photos/mypandorasbox/collections" target="_blank")
+                                        %img(src="resources/brand/social-Flickr.png")
+                        / Copyright
+                        .copyright
+                            != "2017 &copy; Sanjeev Beekeeper"
