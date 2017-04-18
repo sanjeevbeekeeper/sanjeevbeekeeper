@@ -1,14 +1,23 @@
 // Sanjeev Beekeeper
 // mar 2017
 
-.container {
+a {
+    text-decoration: none !important;
+    }
+
+.container-fluid {
+    // background color
+    background-image: url("../../../resources/coverimg/akira.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
     font-family: 'Lato', sans-serif;
     font-size: 22px;
     text-align: center;
     height:100vh;
     .overall_container {
         padding-top: 20px;
-        color: slategray;
+        color: gray;
         .title_container {
             font-family: 'Source Sans Pro', sans-serif;
             & h2 {
@@ -20,10 +29,12 @@
                     }
                 } // h2
             p {
+                background-color: #fff;
                 width: 100%;
                 margin: 0;
                 font-size: 16px;
                 }
+            // Logo
             img {
                 padding: 6px;
                 border-radius: 3px;
@@ -31,29 +42,53 @@
                 margin-bottom: 10px;
                 }
             }
-        .link_container {
-            margin-top: 20px;
-            a {
-                color: dodgerblue;
-                text-decoration: none !important;
-                font-size: 19px;
-                display: block;
-                padding: 4px;
-                }
+        .separator {
+            padding-top: 20px;
+            margin-top: 40px;
+            margin-right: auto;
+            margin-left: auto;
+            width: 150px;
+            border-top: 1px dotted darkgray;
             }
+        .link--container {
+            margin-top: 40px;
+            a {
+                margin: 10px;
+                .page--container {
+                    display: inline-block;
+                    &__img {
+                        img {
+                            // filter: grayscale(100%);
+                            width: 50px;
+                            }
+                        } // _img
+                    &__text {
+                        background-color: #fff;
+                        color: gray;
+                        font-size: 14px;
+                        }
+                    } // .page--container
+                } // a
+            &__socialmedia {
+                .page--container {
+                    display: inline-block;
+                    &__img {
+                        a {
+                            margin: 10px;
+                            img {
+                                width: 30px;
+                                }
+                            } // a
+                        } // _img
+                    } // .page--container
+                } // _socialmedia
+            } // .link_container
         .copyright {
-            width: 100%;
-            margin-top: 20px;
+            background-color: #fff;
+            display: inline-block;
+            margin-top: 10px;
             font-size: 15px;
             color: silver;
             }
         } // .overall_container
-    }
-
-ul {
-    margin: 0;
-    padding: 0;
-    li {
-        list-style: none;
-        }
     }
