@@ -1,0 +1,5 @@
+05th Aug 2017
+
+04th Aug 2017
+- .htaccess new file is added with, gzip compression and browser cache.
+- the gzip compression reduced the file size to 65%. see the screenshot.
